@@ -1,0 +1,293 @@
+:root {
+    --primary-color: #b8634f;
+    --secondary-color: rgb(67, 48, 37);
+    --accent-color: #523612;
+    --background-color: rgb(248, 249, 250);
+    --font-color: rgb(222, 236, 248);;
+    --secondary-font-color: rgb(73, 80, 87);
+    --font-family: 'Roboto', sans-serif;
+    --border-radius: 8px;
+    --margin-left: 10%;
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    color: var(--secondary-font-color);
+    background-color: rgb(187, 202, 211);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    width: 80%;
+    height: 60px;
+    margin-left: 10%;
+    border-radius: 4px;
+    box-shadow: var(--secondary-color) 0px 3px 5px;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+    border-top: 1px solid black;
+    font-size: 12px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+header nav ul li {
+    margin: 15px 10px 15px 10px;
+}
+
+header li a {
+    color: rgb(222, 236, 248);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 10px 21px;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+}
+
+header nav a:hover {
+    /*background-color: var(--accent-color);*/
+    color: rgb(87, 31, 31);
+}
+
+.intro {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(201, 65, 65, 0.5)), url('west-side-coffee.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 4px;
+}
+
+.about {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(201, 65, 65, 0.5)), url('west-side-coffee.png');
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 4px;
+    height: 90vh;
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-content {
+    padding: 30px 20px;
+    background-color: #803c2c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: rgba(43, 21, 44, 0.377) 0px 10px 5px;
+}
+.about-h1 {
+    position: absolute;
+    margin-bottom: 55vh;
+    margin-left: 5%;
+}
+
+.hero {
+    height: 90vh;
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*padding: 20px;*/
+}
+
+.hero h2 {
+    font-size: 2.1em;
+    margin-bottom: 4%;
+    font-weight: 600;
+}
+
+.hero p {
+    font-size: 1.4em;
+    margin-bottom: 3%;
+    max-width: 600px;
+    font-weight: 300;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(114, 12, 12);
+}
+
+.menu {
+    background: linear-gradient(to top, rgba(84, 8, 88, 0.5), rgba(133, 121, 43, 0.201)), url('gpt-coffeebar.png');
+    background-size: cover;
+    background-position: center;
+    margin-left: 10%;
+    width: 50%;
+}
+.menu-description {
+    width: 30%;
+    background-color: #b57c44; /*light brown or light green*/
+    padding: 150px 200px 150px 20px;
+    box-shadow: var(--secondary-color) 10px 5px 5px;
+    color: var(--font-color);
+}
+.menu-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 5%;
+    font-size: 1em;
+}
+.blog-posts {
+    margin-left: 10%;
+    width: 80%;
+    color: var(--font-color);
+}
+.blog-image {
+    float: right;
+    margin: 7px;
+}
+.posting-container {
+    padding: 3px 20px 20px 20px;
+    gap: 20px;
+}
+.posting-heading {
+    background-color: #803c2c;
+    border-radius: var(--border-radius);
+    box-shadow: var(--secondary-color) 5px 5px 5px;
+    float: left;
+    padding: 10px 20px 20px 20px;
+    width: 200px;
+    margin: 30px 20px 4px 20px;
+}
+.posting-body {
+    padding: 15px 15px 15px 15px;
+    background: rgb(195, 163, 77)
+}
+.whole-blog-posting {
+    background-color: #523612;
+    border-radius: 5px;
+    height: 430px;
+    background-color: #b57c44;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #b57c44;
+    border-radius: var(--border-radius);
+    box-shadow: var(--secondary-color) 5px 5px 5px;
+    margin: 2% 30% 5% 30%;
+}
+figcaption {
+    font-size: x-small;
+    padding: 0;
+    margin-top: -40px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+@media (max-width: 1200px) {
+    header {
+        width: min-content;
+        text-align: center;
+        align-items: center;
+        width: 80%;
+    }
+    header nav ul {
+        gap: 5%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    header nav ul li {
+        margin: 15px 2% 15px 2%;
+    }
+    header li a {
+        padding: 10px 2%;
+        font-size: 1em;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .intro h2 {
+        padding: 0 5% 0 5%;
+    }
+    .intro {
+        height: 90vh;
+    }
+    .about-content {
+        flex-direction: column;
+        box-shadow: rgba(43, 21, 44, 0.377) 10px 10px 5px;
+        border-radius: 30px;
+        background-color:#b57c44;
+        margin-top: 20px;
+    }
+    #about-header {
+        margin-bottom: 100px;
+    }
+    .about-h1 {
+        position: relative;
+        margin: 0 auto;
+    }
+    .about-image {
+        width: 50vw;
+    }
+    .menu-content {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .menu {
+        margin: 0 auto;
+    }
+    .menu-description {
+        width: 80%;
+        padding: 15px;
+    }
+    .menu-image {
+        width: 70vw;
+    }
+    .whole-blog-posting {
+        height: auto;
+    }
+    .posting-heading {
+        width: 70%;
+        margin-bottom: 5%;
+    }
+    .contact {
+        margin: 5% 10% 0 10%;
+        height: auto;
+    }
+    footer {
+        margin-top: 10%;
+    }
+    #about-footer {
+        margin-top: 30%;
+    }
+}
