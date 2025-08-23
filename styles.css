@@ -336,4 +336,54 @@ figcaption {
             width: 100%;
             margin-left: 0;
         }
+        .contact {
+            margin: 20px 0 0 0;
+            width: 80vw;
+            height: auto;
+        }
+        .hero h2 {
+            margin: 5% 5% 5% 5%;
+        }
+        .about {
+            background: none;
+        }
+        .about-content {
+            flex-direction: column;
+            box-shadow: rgba(43, 21, 44, 0.377) 10px 10px 5px;
+            border-radius: 30px;
+            background-color:#b57c44;
+            margin-top: 20px;
+        }
+        #about-header {
+            margin-bottom: 100px;
+        }
+        .about-h1 {
+            position: relative;
+            margin: 0 auto;
+        }
+        .about-image {
+            width: 50vw;
+        }
+        .menu-content {
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        .menu {
+            margin: 0 auto;
+        }
+        .menu-description {
+            width: 80%;
+            padding: 15px;
+        }
+        .menu-image {
+            width: 70vw;
+        }
+        .posting-heading {
+            width: 70%;
+            margin-bottom: 5%;
+        }
+        .whole-blog-posting {
+            width: 80vw;
+            height: auto;
+        }
     }
