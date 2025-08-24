@@ -67,7 +67,7 @@ header nav a:hover {
 
 .intro {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(201, 65, 65, 0.5)), url('west-side-coffee.png');
-    background-size: 1030px;
+    background-size: cover;
     background-position: center;
     text-align: center;
     align-items: center;
@@ -335,9 +335,12 @@ header nav a:hover {
             margin-left: 0;
         }
         .contact {
-            margin: 20px 0 0 0;
+            margin: 20px 0 0 2%;
             width: 80vw;
             height: auto;
+        }
+        .hero {
+            height: 70vh;
         }
         .hero h2 {
             margin: 5% 5% 5% 5%;
