@@ -67,7 +67,7 @@ header nav a:hover {
 
 .intro {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(201, 65, 65, 0.5)), url('west-side-coffee.png');
-    background-size: cover;
+    background-size: 990px;
     background-position: center;
     text-align: center;
     align-items: center;
@@ -162,6 +162,11 @@ header nav a:hover {
     width: 80%;
     margin-left: 5%;
     font-size: 1em;
+}
+.menu-image {
+    width: 100%;
+    height: auto;
+    margin-left: var(--margin-left);
 }
 .blog-posts {
     margin-left: 10%;
@@ -346,6 +351,10 @@ figcaption {
         }
         .about {
             background: none;
+            margin: -25vh 0 0 0;
+            justify-content: center;
+            align-items: center;
+
         }
         .about-content {
             flex-direction: column;
@@ -376,7 +385,8 @@ figcaption {
             padding: 15px;
         }
         .menu-image {
-            width: 70vw;
+            width: 100vw;
+            margin-left: -10vw;
         }
         .posting-heading {
             width: 70%;
@@ -384,6 +394,14 @@ figcaption {
         }
         .whole-blog-posting {
             width: 80vw;
+            height: auto;
+        }
+        #coffee-plant-image {
+            width: 75%;
+            height: auto;
+        }
+        #microbiome-image {
+            width: 75%;
             height: auto;
         }
     }
