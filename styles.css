@@ -67,7 +67,7 @@ header nav a:hover {
 
 .intro {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(201, 65, 65, 0.5)), url('west-side-coffee.png');
-    background-size: 990px;
+    background-size: 1030px;
     background-position: center;
     text-align: center;
     align-items: center;
@@ -212,13 +212,6 @@ header nav a:hover {
     box-shadow: var(--secondary-color) 5px 5px 5px;
     margin: 2% 30% 5% 30%;
 }
-figcaption {
-    font-size: x-small;
-    padding: 0;
-    margin-top: -40px;
-    margin-right: 10px;
-    text-align: right;
-}
 
 @media (min-width: 992px) and (max-width: 1200px) {
     .menu-description {
@@ -351,10 +344,11 @@ figcaption {
         }
         .about {
             background: none;
-            margin: -25vh 0 0 0;
+            margin: 0 0 0 0;
             justify-content: center;
             align-items: center;
-
+            margin-top: -10%;
+            margin-left: 8%;
         }
         .about-content {
             flex-direction: column;
@@ -364,7 +358,7 @@ figcaption {
             margin-top: 20px;
         }
         #about-header {
-            margin-bottom: 100px;
+            margin-bottom: 0px;
         }
         .about-h1 {
             position: relative;
