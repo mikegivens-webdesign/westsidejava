@@ -192,7 +192,7 @@ header nav a:hover {
 }
 .posting-body {
     padding: 15px 15px 15px 15px;
-    background: rgb(195, 163, 77)
+    background: rgb(195, 163, 77);
 }
 .whole-blog-posting {
     background-color: #523612;
@@ -226,6 +226,10 @@ header nav a:hover {
     }
     .about-image {
         width: 40vw;
+    }
+    .posting-heading {
+        width: 70%;
+        margin-bottom: 5%;
     }
 }
 
@@ -398,7 +402,7 @@ header nav a:hover {
             height: auto;
         }
         #microbiome-image {
-            width: 75%;
+            width: 95%;
             height: auto;
         }
     }
