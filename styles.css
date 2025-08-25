@@ -212,6 +212,11 @@ header nav a:hover {
     box-shadow: var(--secondary-color) 5px 5px 5px;
     margin: 2% 30% 5% 30%;
 }
+#gut-caption {
+    text-align: right;
+    font-size: 0.6em;
+    color: #424242;
+}
 
 @media (min-width: 992px) and (max-width: 1200px) {
     .menu-description {
@@ -391,14 +396,20 @@ header nav a:hover {
         }
         .posting-heading {
             width: 70%;
-            margin-bottom: 5%;
+            margin: 5% 0 5% 0;
+        }
+        .posting-body {
+            font-size: 0.9em;
         }
         .whole-blog-posting {
             width: 80vw;
             height: auto;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+        }
+        .posting-container {
+        }
+        .blog-posts {
         }
         #coffee-plant-image {
             width: 75%;
