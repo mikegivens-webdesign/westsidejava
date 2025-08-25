@@ -396,13 +396,16 @@ header nav a:hover {
         .whole-blog-posting {
             width: 80vw;
             height: auto;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
         #coffee-plant-image {
             width: 75%;
             height: auto;
         }
         #microbiome-image {
-            width: 95%;
+            width: 100%;
             height: auto;
         }
     }
