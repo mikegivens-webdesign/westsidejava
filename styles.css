@@ -188,7 +188,7 @@ header nav a:hover {
     float: left;
     padding: 10px 20px 20px 20px;
     width: 200px;
-    margin: 30px 200px 4px 20px;
+    margin: 30px 20px 4px 20px;
 }
 .posting-body {
     padding: 15px 15px 15px 15px;
@@ -234,7 +234,8 @@ header nav a:hover {
     }
     .posting-heading {
         width: 70%;
-        margin-bottom: 5%;
+        margin-bottom: 25px;
+        margin-right: 200px;
     }
 }
 
@@ -304,7 +305,8 @@ header nav a:hover {
     }
     .posting-heading {
         width: 70%;
-        margin-bottom: 5%;
+        margin-bottom: 25px;
+        margin-right: 200px;
     }
     .contact {
         margin: 5% 10% 0 10%;
