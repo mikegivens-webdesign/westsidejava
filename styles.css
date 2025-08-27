@@ -227,6 +227,9 @@ header nav a:hover {
     .about-image {
         margin-left: 5%;
     }
+    .about-h1 {
+        margin-left: 2%;
+    }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
     .menu-description {
