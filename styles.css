@@ -430,7 +430,8 @@ header nav a:hover {
         }
         .posting-body {
             font-size: 0.9em;
-            padding: 20px 0vw 20px 3vw;
+            padding: 20px 2vw 20px 6vw;
+            margin-right: 5px;
             margin-top: 5px;
         }
         .whole-blog-posting {
