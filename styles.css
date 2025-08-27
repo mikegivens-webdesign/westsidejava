@@ -425,7 +425,7 @@ header nav a:hover {
         }
         .posting-heading {
             width: 70%;
-            margin: 5% 100px 5% 0;
+            margin: 5% 100px 5% 10px;
         }
         .posting-body {
             font-size: 0.9em;
