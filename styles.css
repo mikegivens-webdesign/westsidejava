@@ -91,7 +91,7 @@ header nav a:hover {
 }
 
 .about-content {
-    padding: 30px 20px;
+    padding: 30px 20px 20px 30px;
     background-color: #803c2c;
     display: flex;
     flex-direction: row;
@@ -100,7 +100,7 @@ header nav a:hover {
 }
 .about-h1 {
     position: absolute;
-    margin-bottom: 55vh;
+    margin-bottom: 50vh;
     margin-left: 5%;
 }
 
