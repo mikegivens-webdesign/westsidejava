@@ -180,7 +180,7 @@ header nav a:hover {
 #espresso-image {
     margin-top: 35px;
     margin-left: 25px;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 .posting-container {
     padding: 3px 20px 20px 20px;
@@ -223,6 +223,11 @@ header nav a:hover {
     color: #424242;
 }
 
+@media (min-width: 992px) {
+    .about-image {
+        margin-left: 5%;
+    }
+}
 @media (min-width: 992px) and (max-width: 1200px) {
     .menu-description {
         height: 80vh;
@@ -331,6 +336,7 @@ header nav a:hover {
         margin-top: 30%;
     }
 }
+
     @media (min-width: 601px) and (max-width: 800px) {
         #espresso-image {
             margin-left: 100px;
