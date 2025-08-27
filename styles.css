@@ -178,8 +178,9 @@ header nav a:hover {
     margin: 7px;
 }
 #espresso-image {
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 35px;
+    margin-left: 25px;
+    margin-bottom: 35px;
 }
 .posting-container {
     padding: 3px 20px 20px 20px;
@@ -429,6 +430,8 @@ header nav a:hover {
         }
         .posting-body {
             font-size: 0.9em;
+            padding: 20px 0vw 20px 3vw;
+            margin-top: 5px;
         }
         .whole-blog-posting {
             width: 90vw;
@@ -437,6 +440,8 @@ header nav a:hover {
             align-items: center;
         }
         .posting-container {
+            padding-top: 5%;
+            padding-bottom: 5%;
         }
         .blog-posts {
             margin-left: 3%;
@@ -444,11 +449,13 @@ header nav a:hover {
         #microbiome-image {
             width: 100%;
             height: auto;
+            margin-bottom: 20px;
+
         }
         #espresso-image {
             width: 100%;
             height: auto;
             margin-bottom: 20px;
-            margin-top: 5px;
+            margin-top: 0;
         }
     }
