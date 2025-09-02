@@ -149,7 +149,7 @@ header nav a:hover {
 }
 .menu-description {
     width: 30%;
-    background-color: #6e6e6e; /*light brown or light green*/
+    background-color: #919191ff; /*light brown or light green*/
     padding: 150px 200px 150px 20px;
     box-shadow: var(--secondary-color) 10px 5px 5px;
     color: var(--font-color);
